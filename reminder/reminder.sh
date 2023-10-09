@@ -4,7 +4,7 @@ while true; do
     workingTime="09:00"
     timeOff="16:30"
     studyTime="19:00"
-    sleepingTime="12:00"    
+    sleepingTime="23:59"    
     now=$(date +"%H:%M")
 
     if [ $now == $workingTime ]; then 
