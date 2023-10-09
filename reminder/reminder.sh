@@ -1,10 +1,10 @@
 #!/bin/bash
 
 while true; do
-    workingTime="08:00"
-    timeOff="16:00"
-    studyTime="18:00"
-    sleepingTime="22:00"    
+    workingTime="09:00"
+    timeOff="16:30"
+    studyTime="19:00"
+    sleepingTime="12:00"    
     now=$(date +"%H:%M")
 
     if [ $now == $workingTime ]; then 
